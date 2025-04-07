@@ -37,7 +37,7 @@ cred = credentials.Certificate("firebase.json")  # Download from Firebase
 firebase_admin.initialize_app(cred)
 
 # OpenAI API Configuration
-API_KEY = "ddc-3jsYi0OJLtcuTXEYL2ue2k4Q5o2kjmwkv1YlowcGfmDNuO2cxc"  # ⚠️ Replace with a real API key
+API_KEY = ""  #API key
 BASE_URL = "https://api.sree.shop/v1"
 
 client = OpenAI(
@@ -270,7 +270,7 @@ def signup():
 
 
 
-YOUTUBE_API_KEY = "AIzaSyBEJzG9H6QVjqJg6t7wsDUMiY1-AwnoVYk"
+YOUTUBE_API_KEY = "" #YouTube API 
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 
 #initial quiz
